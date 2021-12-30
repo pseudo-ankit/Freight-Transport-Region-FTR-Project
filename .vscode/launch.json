@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<ConfigServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.FTR.ConfigServer.ConfigServerApplication",
+            "projectName": "ConfigServer",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<EurekaServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.FTR.EurekaServer.EurekaServerApplication",
+            "projectName": "EurekaServer",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-VehiclesApplication<Vehicles>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.FTR.Vehicles.VehiclesApplication",
+            "projectName": "Vehicles",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserApplication<User>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.FTR.User.UserApplication",
+            "projectName": "User",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TerminalsApplication<Terminals>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.FTR.Terminals.TerminalsApplication",
+            "projectName": "Terminals",
+            "args": ""
+        }
+    ]
+}
